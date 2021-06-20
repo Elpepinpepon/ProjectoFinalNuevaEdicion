@@ -1,0 +1,539 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: azure;
+  }
+  
+  /*Primer menu index*/
+  .primerflex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .imagen a img {
+    min-height: 30px;
+    max-width: 200px;
+    max-width: 200px;
+    max-height: 30px;
+    border-radius: 100px;
+    padding: 30px;
+    padding-left: 400px;
+  }
+  
+  .imagen img {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .imagen img:hover {
+    -webkit-filter: opacity(0.5);
+            filter: opacity(0.5);
+  }
+  
+  .imagenylogo {
+    height: 60px;
+    padding-left:80px ;
+  }
+  
+  .turnosonline {
+    width: 240px;
+    height: 40px;
+    border-radius: 300px;
+    margin-left: 550px;
+    margin-top: 50px;
+  }
+  
+  .turnosonline img {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .turnosonline img:hover {
+    -webkit-filter: opacity(0.5);
+            filter: opacity(0.5);
+  }
+  
+  .redessociales {
+    height: 0px;
+  }
+  
+  
+  
+  .nuevomenu {
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  
+ .quitarseparador a:link{
+    border-right: 1px solid black;
+
+ }
+
+  .nuevomenu ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  
+  .continuacionmenu > li {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  
+  .continuacionmenu > li > a {
+    display: block;
+    padding: 30px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    border-right: 1px solid aqua;
+  }
+  
+  .continuacionmenu li a:hover {
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: aqua;
+  }
+  
+  .submenu li a:hover {
+    color: black;
+    background-color: aqua;
+  }
+  
+  .submenu {
+    position: absolute;
+    background-color: gainsboro;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+  }
+  
+  .submenu li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .continuacionmenu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+  }
+  @media screen and (max-width : 760px){
+  
+  
+  
+    }
+  
+    
+    
+   
+  }
+  .separador{
+    border-top: 2px solid aqua;
+    height: 2px;
+    max-width: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 50px auto 0 auto;
+  }
+  .frasedeseparador{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .frasedeseparador2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+
+  }
+
+  .frasedeseparador3{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+  }
+
+
+  .slider{
+    margin: auto;
+    overflow: hidden;
+  }
+  .slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+  
+    animation: cambio 20s infinite alternate;
+  }
+  .slider li{
+    width: 100%;
+    list-style: none;
+  }
+  .slider img{
+    width: 100%;
+  }
+  
+  @keyframes cambio {
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+  
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+  
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+  
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+  }
+  
+  .imagenes-novedades {
+    position: relative;
+    min-height: 100px;
+    padding: 0px 50px 15px 50px;
+    display: grid;
+    font-size: 20px;
+    background-color: gray;
+    grid-template-columns: repeat(0, 0fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 15px;
+    grid-template-areas:
+    " tele "
+   "especialidadesmed"
+     "imagrx ";
+    
+    
+  }
+  
+  .imagenes-novedades a:link{
+        color: black;
+    text-decoration: none;
+          
+  }
+  
+  .imagenes-novedades a:visited{
+        color: black;
+    text-decoration: none;		
+  }
+  
+  .imagenes-novedades a:hover{
+        color: black;
+    transition: all .5s;		
+  }
+  
+  .imagenes-novedades1{
+    grid-area: tele;
+  }
+  
+  
+  
+  
+  .imagenes-enfermeria{
+    grid-area: especialidadesmed;		
+  }
+  
+  .imagenes-especialidades{
+    grid-area: imagrx;
+    
+  }
+  
+  .imagenes-novedades1 img{
+    padding-top: 20px;
+    height: 250px;
+  
+  }
+  
+  .imagenes-especialidades img{
+    padding-top: 20px;
+    height: 250px;
+  }
+  
+  .imagenes-enfermeria img{
+    padding-top: 20px;
+    height: 250px;
+  }
+  
+  .imagenes-novedades1 img:hover{
+    filter: opacity(0.5);
+    transition: 0.5s;
+  }
+  
+  .imagenes-especialidades img:hover{
+    filter: opacity(0.5);
+    transition: 0.5s;
+  }
+  
+  .imagenes-especialidades img:hover{
+    filter: opacity(0.5);
+    transition: 0.5s;
+  }
+  
+  .desplazamiento{
+    padding-left:120px;
+  }
+  
+  .desplazamiento-2{
+    padding-left: 120px;
+  }
+  
+  .desplazamiento-3{
+    padding-left: 120px;
+  }
+  
+  .hover a:link{
+    border-top: 1px solid aqua;
+  }
+  
+  
+  .hover a:hover{
+    border-top: 1px solid aqua;
+  }
+  
+  .puntos {
+    list-style: none;
+    width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .puntos a:hover {
+    border-top: 1px solid aqua;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+  }
+  
+  .efecto img {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .efecto img:hover {
+    -webkit-filter: opacity(0.5);
+            filter: opacity(0.5);
+  }
+  
+  .imagenes-novedades-segundo {
+    position: relative;
+    min-height: 100px;
+    padding: 0px 50px 15px 50px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 15px;
+    grid-template-areas:
+    "tele"
+    "especialidadesmed"
+    "imagrx" 
+    "accesorapido";
+    
+    
+  }
+  
+  .imagenes-novedades-segundo a:link{
+        color: black;
+    text-decoration: none;
+          
+  }
+  
+  .imagenes-novedades-segundo a:visited{
+        color: black;
+    text-decoration: none;		
+  }
+  
+  .imagenes-novedades-segundo a:hover{
+        color: black;
+    transition: all .5s;		
+  }
+  
+  .imagenes-tele{
+    grid-area: tele;
+  }
+  
+  .imagenes-especialidades-med{
+    grid-area: especialidadesmed;		
+  }
+  
+  .imagenes-imagrx{
+    grid-area: imagrx;
+    
+  }
+  
+  .imagenes-accesorapido{
+    grid-area: accesorapido;
+    color: gray;
+    background-color:gainsboro;
+    padding-bottom: 66px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    margin-bottom: 100px;
+    
+  }
+  
+  .imagen5000 img{
+    padding-top: 20px;
+    height: 310px;
+
+  }
+  
+  .imagenes-accesorapido hr{
+    border: 0px solid black;
+    margin: 15px;
+    padding-top: 2px;
+       
+  }
+  
+  .imagenes-accesorapido a:visited{
+    color: black;		
+  }
+  
+  .imagenes-accesorapido a:visited{
+    color:black;		
+  }
+  .imagenes-accesorapido a:hover{
+    color: black;		
+  }
+    .hover a:hover{
+      border-top: 1px solid aqua;	
+  }
+    
+  .hover a:link{
+      border-top: 1px solid black;
+   }
+  
+  .efecto img {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .efecto img:hover {
+    -webkit-filter: opacity(0.5);
+            filter: opacity(0.5);
+  }
+  
+  .comollegar {
+    position: relative;
+    min-height: 100px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 0px;
+    grid-template-areas: 
+    "mapa"
+    "datos";
+  }
+  
+  .mapa {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: mapa;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .datos {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: datos;
+    background-color: gainsboro;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    font-size: 13px;
+  }
+  
+  .datos img {
+    vertical-align: middle;
+  }
+  
+  .datosSangria {
+    padding-left: 35px;
+  }
+  
+  .datos a:link, a:hover, a:visited {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  /*Segunda Pagina*/
+  .hospitalescober1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: white;
+    line-height: 60px;
+    height: 180px;
+    padding: 60px 60px 60px;
+    list-style-type: square;
+  }
+  
+  .hospitalescober1 ul {
+    list-style: square inside;
+    color: aqua;
+  }
+  
+  .hospitalescober1 a:link {
+    color: black;
+  }
+  
+  .hospitalescober1 a:visited {
+    color: black;
+  }
+  
+  .hospitalescober1 a:hover {
+    color: aqua;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+   .mapa iframe{
+       width: 483px;
+       height: 300px;
+   }
+  
+  
+  /*# sourceMappingURL=estilos.css.map */

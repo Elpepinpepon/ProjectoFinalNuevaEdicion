@@ -1,0 +1,295 @@
+@media only screen and (max-width: 375px){
+    .primerflex{
+        height: 0px;
+        visibility: hidden;
+        
+    }
+    .imagenylogo{
+        height: 0px;
+        visibility: hidden;
+    }
+    .redessociales{
+        height: 0px;
+        visibility: hidden;
+    }
+    nav ul{
+        margin-right: 0px;
+        float: left;
+    }
+    nav .logo{
+        height: 100%;
+        float: left;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 70px;
+        padding-left: 60px;
+        visibility: visible;
+    }
+    nav ul li, nav ul ul li{
+        display: block;
+        width: 100%;
+    }
+    nav ul ul{
+        top: 70px;
+        position: static;
+        border-top: none;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul ul ul{
+        position: static;
+    }
+    nav ul ul a{
+        padding-left: 40px;
+    }
+    nav ul ul li{
+        border-bottom: 40px;
+        
+    }
+    nav ul ul ul a{
+        padding-left: 80px;
+    }
+    .show{
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show:hover{
+        color: cyan;
+    }
+    .icon{
+        display: block;
+        color: white;
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    nav ul a:hover{
+        box-shadow: none;
+    }
+    .show + a, ul{
+        display: none;
+    }
+    [id^=btn]:checked + ul{
+        display: block;
+    }
+    .imagen-responsive{
+        width: 250px;
+        height: 200px;
+    }
+  
+    .imagenes-novedades {
+        position: relative;
+        padding: 0px 50px 15px 35px;
+        display: grid;
+        font-size: 20px;
+        background-color: gray;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 15px;
+        grid-template-areas:
+        " tele tele tele "
+        "especialidadesmed especialidadesmed especialidadesmed"
+        "imagrx imagrx imagrx ";
+        
+      }
+  
+      .imagenes-novedades-segundo {
+        position: relative;
+        padding: 0px 0px 15px 33px;
+        display: grid;
+        font-size: 20px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 15px;
+        grid-template-areas:
+        " tele tele tele" 
+        "especialidadesmed especialidadesmed especialidadesmed" 
+        "imagrx imagrx imagrx"
+        " accesorapido accesorapido accesorapido";
+      }
+  
+      .imagenes-accesorapido{
+        grid-area: accesorapido;
+        color: gray;
+        background-color:gainsboro;
+        padding-bottom: 66px;
+        padding-left: 50px;
+        padding-right: 20px;
+        font-size: 17px;
+        margin-bottom: 100px;
+        width:250px;
+        
+      }
+  
+      .comollegar {
+        position: relative;
+        min-height: 100px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 0px;
+        grid-template-areas: 
+        "mapa"
+        "datos";
+      }
+      .google{
+          width: 320px;
+          height: 490px;
+      }
+   }
+
+   @media only screen and (max-width: 375px){
+    .primerflex{
+        height: 0px;
+        visibility: hidden;
+        
+    }
+    .imagenylogo{
+        height: 0px;
+        visibility: hidden;
+    }
+    .redessociales{
+        height: 0px;
+        visibility: hidden;
+    }
+    nav ul{
+        margin-right: 0px;
+        float: left;
+    }
+    nav .logo{
+        height: 100%;
+        float: left;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 70px;
+        padding-left: 60px;
+        visibility: visible;
+    }
+    nav ul li, nav ul ul li{
+        display: block;
+        width: 100%;
+    }
+    nav ul ul{
+        top: 70px;
+        position: static;
+        border-top: none;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul ul ul{
+        position: static;
+    }
+    nav ul ul a{
+        padding-left: 40px;
+    }
+    nav ul ul li{
+        border-bottom: 40px;
+        
+    }
+    nav ul ul ul a{
+        padding-left: 80px;
+    }
+    .show{
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show:hover{
+        color: cyan;
+    }
+    .icon{
+        display: block;
+        color: white;
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    nav ul a:hover{
+        box-shadow: none;
+    }
+    .show + a, ul{
+        display: none;
+    }
+    [id^=btn]:checked + ul{
+        display: block;
+    }
+    .imagen-responsive{
+        width: 250px;
+        height: 200px;
+    }
+  
+    .imagenes-novedades {
+        position: relative;
+        padding: 0px 50px 15px 35px;
+        display: grid;
+        font-size: 20px;
+        background-color: gray;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 15px;
+        grid-template-areas:
+        " tele tele tele "
+        "especialidadesmed especialidadesmed especialidadesmed"
+        "imagrx imagrx imagrx ";
+        
+      }
+  
+      .imagenes-novedades-segundo {
+        position: relative;
+        padding: 0px 0px 15px 33px;
+        display: grid;
+        font-size: 20px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 15px;
+        grid-template-areas:
+        " tele tele tele" 
+        "especialidadesmed especialidadesmed especialidadesmed" 
+        "imagrx imagrx imagrx"
+        " accesorapido accesorapido accesorapido";
+      }
+  
+      .imagenes-accesorapido{
+        grid-area: accesorapido;
+        color: gray;
+        background-color:gainsboro;
+        padding-bottom: 66px;
+        padding-left: 50px;
+        padding-right: 20px;
+        font-size: 17px;
+        margin-bottom: 100px;
+        width:250px;
+        
+      }
+  
+      .comollegar {
+        position: relative;
+        min-height: 100px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 0px;
+        grid-template-areas: 
+        "mapa"
+        "datos";
+      }
+      .google{
+          width: 320px;
+          height: 490px;
+      }
+   }
+ 
+ 
